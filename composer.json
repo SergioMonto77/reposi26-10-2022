@@ -1,0 +1,19 @@
+{
+    "name": "sergi/webservice1",
+    "description": "Ejemplo de API themoviedb.org",
+    "type": "project",
+    "license": "gnu/gpl",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sergio"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
